@@ -4,73 +4,78 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     
     <!--the navbar-->
     <nav>
-<ul>
-    <li><a href="HOME">HOME</a></li>
-    <li><a href="ABOUT">ABOUT</a></li>
-    <li><a href="WORK">WORK</a></li>
-    <li><a href="RSUME">RSUME</a></li>
-    <li><a href="CONTACT">CONTACT</a></li>
+<ul class="navbar">
+    <li class="li"><a href="HOME">HOME</a></li>
+    <li class="li"><a href="ABOUT">ABOUT</a></li>
+    <li class="li"><a href="WORK">WORK</a></li>
+    <li class="li"><a href="RSUME">RSUME</a></li>
+    <li class="li"><a href="CONTACT">CONTACT</a></li>
 
     </li>
 </ul>
 
     </nav>
+    <nav>
 <section id="ABOUT">
-    <h1>About me</h1>
-      <P>Je suis codeur-entrepreneur-kiffeur et j'aide les gens à changer de vie au travers de mes sites.</P>
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/SkGeJqln7II?si=5QCbDxkcau-gPbEp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <h1 id="h1">ABOUT ME :</h1>
+      <P class="p">Je suis codeur-entrepreneur-kiffeur et j'aide les gens à changer de vie au travers de mes sites.</P>
+      <iframe class="iframe"  width="560" height="315" src="https://www.youtube.com/embed/SkGeJqln7II?si=5QCbDxkcau-gPbEp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
      </section>
      <SECtion id="WORK">
-        <h2>work experience</h2>
+        <h2 id="h2">WORK EXPERINCE :</h2>
         <ul>
             <li>
-                <h3>job title1</h3>
-              <p>small undesigned business</p>
+                <h3 class="h3">Job title :</h3>
+              <p class="p">small undesigned business</p>
             </li>
             <li>
-                <h3>job title2</h3>
-                <p>Creator MAGIC WINDOW:a product that allowed stores to make their windows interactive.</p>
+                <h3 class="h3">Job title2 :</h3>
+                <p class="p">Creator MAGIC WINDOW:a product that allowed stores to make their windows interactive.</p>
             </li>
         </ul>
      </SECtion>
-     <section id="RSUME">
-        <h2>RSUME</h2>
+    </nav>
+     <section id="RESUME">
+        <h2 id="h2">RESUME :</h2>
         <br>
-        <p>Upload your resume</p>
+        <p class="p">Upload your resume :</p>
         <form>
-        <input type="file" name="resume" accept=".pdf, .doc, .docx">
+            <br>
+        <input class="file" type="file" name="resume" accept=".pdf, .doc, .docx">
         <br>
-        <input type="submit">
+        <input class="input" type="submit">
     </form>
 
      </section>
      <section id="CONTACT">
-        <H2>CONTACT </H2>
-        <form>
-            <label for="name">name:</label>
+        <br>
+        <h2 id="h2">CONTACT : </h2>
+        <form class="form">
+            <label for="name">Name:</label>
             <input type="text"><br>
-            <label for="email">e-mail:</label>
+            <label for="email">E-mail:</label>
             <input type="email" name=""><br>
-            <input type="submit" name="Send Message">
+            <input  class="input" type="submit" name="Send Message">
         </form>
      </section>
      <footer>
         <div>
-            <h3>Liens Utiles</h3>
-            <ul>
-                <li><a href="#">HOME</a></li>
-                <li><a href="#">ABOUT</a></li>
-                <li><a href="#">WORK</a></li>
-                <li><a href="#">Contact</a></li>
+            <h3 id="h2">Liens Utiles :</h3>
+            <ul class="ul">
+                <li id="li"><a href="#">HOME</a></li>
+                <li id="li"><a href="#">ABOUT</a></li>
+                <li id="li"><a href="#">WORK</a></li>
+                <li id="li"><a href="#">Contact</a></li>
             </ul>
         </div>
         <div>
-            <h3>Contact</h3>
+            <h3  id="h2">Contact :</h3>
             <address>
                 <p>123 Rue de la Rue</p>
                 <p>Email : contact@monsite.com</p>
